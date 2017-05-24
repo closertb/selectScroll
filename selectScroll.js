@@ -97,7 +97,7 @@
         styleSuit:function(rows){
             $("#ui-Page").css("height",120+rows*40);
             $("#ui-scroll").css("height",rows*40);   
-             $("#ui-mark").css("top",46+rows*20);                    
+             $("#ui-mark").css("top",45+rows*20);                    
         },
         initCommon:function(option){
             var data = option.source;
@@ -133,7 +133,6 @@
             initBar.grand+=1;            
             bar.grand = new iScroll("grandwrapper",{snap:"li",vScrollbar:false,
                   onScrollEnd:function () {
-                       bar.grand.refresh();
                       bar.indexgrand= (this.y/40)*(-1)+(rows-1)/2;//+1+initBar.grand
                   }});
            bar.grand.scrollToElement(document.querySelector("#grandwrapper li:nth-child("+initBar.grand+")"),null,null,true) ;                  
