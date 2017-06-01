@@ -20,7 +20,7 @@ border-radius: 4px;height:120px;text-align: center;line-height: 40px;top:50px;le
 #childwrapper{ left:67%;}
 #ui-scroll  li{color: #898989;font-size: 1.6rem;}
 /*采用浮动排列三个div标签*/
-/*#ui-scroll div{float:left;height:100%; width:32%;}
+/*#ui-scroll div{float:left;height:100%; width:32%;z-index:999;}
 #ui-scroll  li{color: #898989;font-size: 1.6rem;}*/
 #setcancle label{display:inline-block;text-align: center;
                 border:1px solid  #dcdddd; border-radius:3px;margin:1px;
